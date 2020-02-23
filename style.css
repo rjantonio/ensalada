@@ -1,0 +1,196 @@
+/*Estilo de la web bootstrap Ensalada*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Estilo del Cuerpo*/
+
+body {
+    font-family: 'Roboto';
+}
+
+h1 { font-size: 100px;
+    font-family: 'Odibee Sans';}
+h2 { font-size: 48px; margin-bottom: 30px;}
+
+p {
+    font-size: 30px;
+    color: rgb(165, 165, 165);
+}
+
+.boton {
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.boton-light {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+.boton i {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+/*Estilo de la barra de navegación*/
+
+.navbar {
+    background-color: #e0e0e0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    min-height: 100px;
+}
+
+.nav-link { color: #1a1a1a; font-size: 40px;}
+.nav-link:hover {color: #3b9157;}
+
+.logo-brand {
+    width: 160px;
+}
+
+.navbar-toggler { font-size: 40px;}
+.navbar-toggler:focus {outline: none;}
+
+/*Estilo de las secciones*/
+
+#hero {
+    background-image: url('imagenes/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 250px;
+    min-height: 700px;
+    color: white;
+}
+
+#hero h1 {
+    text-shadow: 3px 3px black;
+}
+
+#hero p {
+    text-shadow: 3px 3px black;
+}
+
+section {
+    padding: 50px 0;
+    background-color: white;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.fotos {
+    display: inline-block;
+}
+
+.foto {
+    left: 25vw;
+    position: relative;
+    width: 50%;
+}
+
+
+
+/*Estilo de ventajas*/
+
+.ventajas-container {
+    margin: 15px 10px;
+    border: 2px solid black;
+    color: grey;
+}
+
+.ventajas-container h2 {
+    padding: 10px;
+}
+
+.borde {
+    padding: 50px 30px;
+    padding-left: 70px;
+    border-radius: 2px;
+}
+
+li {
+    font-size: 30px;
+}
+
+.borde-cuadro {
+    background-color: rgba(118, 206, 165, 0.342);
+    border-top: 2px solid black;
+    color: rgb(0, 0, 0);
+}
+
+/*Estilo del carrousel*/
+
+h5 { font-size: 40px;     
+    font-family: 'Odibee Sans';
+    text-shadow: 3px 3px black;
+}
+
+h6 {
+    font-size: 25px;
+    color: grey;
+}
+
+#tipos p {
+    text-shadow: 3px 3px black;
+}
+
+/*Estilo de videos*/
+
+.video {
+    padding: 10px 0;
+}
+
+
+/*Estilo del footer*/
+
+footer {
+    background-color: brown;
+    text-align: center;
+}
+
+/*Estilo del formulario*/
+
+.header {
+    font-size: 40px;
+    color: blue;
+}
+
+
+@media (max-width: 575.98px) { 
+    h1 { font-size: 40px; line-height: normal;}
+ }
+
+
+@media (min-width: 576px) and (max-width: 1199px) { 
+    .foto {
+        width: 30%;
+        left: auto;
+    }
+    .d-block {
+        height: 500px;
+    }
+    .video {
+        padding: 30px;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    .foto {
+        width: auto;
+        left: 5%;
+    }
+    .d-block {
+        height: 700px;
+    }
+    .video {width: 100;}
+ }
